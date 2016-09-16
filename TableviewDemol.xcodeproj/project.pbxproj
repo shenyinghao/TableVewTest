@@ -15,6 +15,12 @@
 		B932B1271D8B9E6F000B8CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B932B1251D8B9E6F000B8CDF /* LaunchScreen.storyboard */; };
 		B932B1321D8B9E6F000B8CDF /* TableviewDemolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B932B1311D8B9E6F000B8CDF /* TableviewDemolTests.m */; };
 		B932B13D1D8B9E6F000B8CDF /* TableviewDemolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B932B13C1D8B9E6F000B8CDF /* TableviewDemolUITests.m */; };
+		B932B14C1D8B9E89000B8CDF /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B932B14B1D8B9E89000B8CDF /* DataSource.m */; };
+		B932B14E1D8B9FD2000B8CDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B932B14D1D8B9FD2000B8CDF /* UIKit.framework */; };
+		B932B1501D8B9FDD000B8CDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B932B14F1D8B9FDD000B8CDF /* Foundation.framework */; };
+		B932B1521D8BA016000B8CDF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B932B1511D8BA016000B8CDF /* CoreFoundation.framework */; };
+		B932B1541D8BA08D000B8CDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B932B1531D8BA08D000B8CDF /* CoreGraphics.framework */; };
+		B932B1561D8BA094000B8CDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B932B1551D8BA094000B8CDF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,14 @@
 		B932B1381D8B9E6F000B8CDF /* TableviewDemolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableviewDemolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B932B13C1D8B9E6F000B8CDF /* TableviewDemolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableviewDemolUITests.m; sourceTree = "<group>"; };
 		B932B13E1D8B9E6F000B8CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B932B14A1D8B9E89000B8CDF /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		B932B14B1D8B9E89000B8CDF /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		B932B14D1D8B9FD2000B8CDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B932B14F1D8B9FDD000B8CDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B932B1511D8BA016000B8CDF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B932B1531D8BA08D000B8CDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B932B1551D8BA094000B8CDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B932B1571D8BA158000B8CDF /* PhotoData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoData-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B932B1561D8BA094000B8CDF /* QuartzCore.framework in Frameworks */,
+				B932B1541D8BA08D000B8CDF /* CoreGraphics.framework in Frameworks */,
+				B932B1521D8BA016000B8CDF /* CoreFoundation.framework in Frameworks */,
+				B932B1501D8B9FDD000B8CDF /* Foundation.framework in Frameworks */,
+				B932B14E1D8B9FD2000B8CDF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,11 @@
 		B932B10B1D8B9E6F000B8CDF = {
 			isa = PBXGroup;
 			children = (
+				B932B1551D8BA094000B8CDF /* QuartzCore.framework */,
+				B932B1531D8BA08D000B8CDF /* CoreGraphics.framework */,
+				B932B1511D8BA016000B8CDF /* CoreFoundation.framework */,
+				B932B14F1D8B9FDD000B8CDF /* Foundation.framework */,
+				B932B14D1D8B9FD2000B8CDF /* UIKit.framework */,
 				B932B1161D8B9E6F000B8CDF /* TableviewDemol */,
 				B932B1301D8B9E6F000B8CDF /* TableviewDemolTests */,
 				B932B13B1D8B9E6F000B8CDF /* TableviewDemolUITests */,
@@ -105,8 +129,11 @@
 				B932B11B1D8B9E6F000B8CDF /* AppDelegate.m */,
 				B932B11D1D8B9E6F000B8CDF /* ViewController.h */,
 				B932B11E1D8B9E6F000B8CDF /* ViewController.m */,
+				B932B14A1D8B9E89000B8CDF /* DataSource.h */,
+				B932B14B1D8B9E89000B8CDF /* DataSource.m */,
 				B932B1201D8B9E6F000B8CDF /* Main.storyboard */,
 				B932B1231D8B9E6F000B8CDF /* Assets.xcassets */,
+				B932B1571D8BA158000B8CDF /* PhotoData-Prefix.pch */,
 				B932B1251D8B9E6F000B8CDF /* LaunchScreen.storyboard */,
 				B932B1281D8B9E6F000B8CDF /* Info.plist */,
 				B932B1171D8B9E6F000B8CDF /* Supporting Files */,
@@ -272,6 +299,7 @@
 			files = (
 				B932B11F1D8B9E6F000B8CDF /* ViewController.m in Sources */,
 				B932B11C1D8B9E6F000B8CDF /* AppDelegate.m in Sources */,
+				B932B14C1D8B9E89000B8CDF /* DataSource.m in Sources */,
 				B932B1191D8B9E6F000B8CDF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "TableviewDemol/PhotoData-Prefix.pch";
 				INFOPLIST_FILE = TableviewDemol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = None.TableviewDemol;
@@ -426,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "TableviewDemol/PhotoData-Prefix.pch";
 				INFOPLIST_FILE = TableviewDemol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = None.TableviewDemol;
